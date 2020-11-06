@@ -26,7 +26,7 @@ class AdvController extends OnAuthController
      *
      * @var array
      */
-    protected $authOptional = ['index', 'view'];
+    protected $authOptional = ['index', 'view', 'nearList'];
 
     /**
      * @return array|\yii\data\ActiveDataProvider
@@ -50,6 +50,7 @@ class AdvController extends OnAuthController
 
         // return parent::actionView($id);
     }
+    
 
     /**
      * 权限验证
