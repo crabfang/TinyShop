@@ -19,7 +19,7 @@ class AddonConfig extends BaseAddonConfig
      */
     public $info = [
         'name' => 'TinyShop',
-        'title' => '微商城',
+        'title' => '商城后台',
         'brief_introduction' => '基础的多商户购物商城',
         'description' => '快速可以进行二次开发的商城，麻雀虽小五脏俱全',
         'author' => '简言',

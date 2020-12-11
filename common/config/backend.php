@@ -105,11 +105,6 @@ return [
             'icon' => 'fa fa-sticky-note'
         ],
         [
-            'title' => '惠长管理',
-            'route' => 'console/index',
-            'icon' => 'fa fa-desktop'
-        ],
-        [
             'title' => '营销管理',
             'route' => 'marketing',
             'icon' => 'fa fa-gift',
