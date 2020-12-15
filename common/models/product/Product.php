@@ -204,7 +204,7 @@ class Product extends \common\models\base\BaseModel
             [['name'], 'string', 'max' => 255],
             [['sketch', 'keywords', 'address_name'], 'string', 'max' => 200],
             [['picture', 'video_url'], 'string', 'max' => 255],
-            [['marque', 'barcode', 'picture', 'video_url', 'marketing_type'], 'string', 'max' => 100],
+            [['marque', 'barcode', 'marketing_type'], 'string', 'max' => 100],
             [['unit'], 'string', 'max' => 20],
             [['tags'], 'safe'],
         ];
